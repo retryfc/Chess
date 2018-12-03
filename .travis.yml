@@ -1,10 +1,9 @@
 language: csharp
-solution: ./ChessGUI/ChessGUI.sln
-
-install:
-  - nuget restore ./ChessGUI/ChessGUI.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
-
 script:
-  - xbuild /p:Configuration=Release ./ChessGUI/ChessGUI.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./ChessGUI.Tests/bin/Release/ChessGUI.Tests.dll
+  - xbuild /p:Configuration=Debug ./ChessGUI/ChessGUI.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore ./ChessGUI/ChessGUI.sln
+after_script:
+  - nunit-console Tests/bin/Debug/Tests.dll
