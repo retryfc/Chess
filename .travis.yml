@@ -6,5 +6,5 @@ install:
   - nuget restore ./ChessGUI/ChessGUI.sln
 
 script:
-  - xbuild ./src/yoursolution.sln
-  - nunit-console ./src/SomeLibrary.Tests/bin/Debug/SomeLibrary.Tests.dll
+  - xbuild ./ChessGUI/ChessGUI.sln
+  - nunit-console ./ChessGUI/SomeLibrary.Tests/bin/Debug/SomeLibrary.Tests.dll
