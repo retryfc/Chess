@@ -34,3 +34,17 @@ C:\Users\emb14\source\repos\ChessCSharp\ChessCSharp\ChessServer\ChessServer\obj\
 C:\Users\emb14\source\repos\ChessCSharp\ChessCSharp\ChessServer\ChessServer\obj\Release\ChessServer.exe
 C:\Users\emb14\source\repos\ChessCSharp\ChessCSharp\ChessServer\ChessServer\obj\Release\ChessServer.pdb
 C:\Users\emb14\source\repos\ChessCSharp\ChessCSharp\ChessServer\ChessServer\obj\Release\ChessServer.csproj.CopyComplete
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\ChessServer.exe.config
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\ChessServer.exe.manifest
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\ChessServer.application
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\ChessServer.exe
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\ChessServer.pdb
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\Newtonsoft.Json.dll
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\bin\Release\Newtonsoft.Json.xml
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.csprojAssemblyReference.cache
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.csproj.CoreCompileInputs.cache
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.exe.manifest
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.application
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.csproj.CopyComplete
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.exe
+D:\LEARNING\Cursach2\Chess\ChessServer\ChessServer\obj\Release\ChessServer.pdb

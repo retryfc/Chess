@@ -84,38 +84,44 @@
             // 
             // textBoxChat
             // 
-            this.textBoxChat.Location = new System.Drawing.Point(616, 13);
+            this.textBoxChat.Location = new System.Drawing.Point(786, 35);
+            this.textBoxChat.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxChat.Multiline = true;
             this.textBoxChat.Name = "textBoxChat";
             this.textBoxChat.ReadOnly = true;
             this.textBoxChat.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxChat.Size = new System.Drawing.Size(348, 474);
+            this.textBoxChat.Size = new System.Drawing.Size(262, 386);
             this.textBoxChat.TabIndex = 0;
+            this.textBoxChat.Visible = false;
             // 
             // textBoxNotation
             // 
-            this.textBoxNotation.Location = new System.Drawing.Point(970, 13);
+            this.textBoxNotation.Location = new System.Drawing.Point(530, 18);
+            this.textBoxNotation.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNotation.Multiline = true;
             this.textBoxNotation.Name = "textBoxNotation";
             this.textBoxNotation.ReadOnly = true;
             this.textBoxNotation.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxNotation.Size = new System.Drawing.Size(335, 258);
+            this.textBoxNotation.Size = new System.Drawing.Size(252, 210);
             this.textBoxNotation.TabIndex = 1;
             // 
             // textBoxInput
             // 
-            this.textBoxInput.Location = new System.Drawing.Point(616, 493);
+            this.textBoxInput.Location = new System.Drawing.Point(718, 499);
+            this.textBoxInput.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxInput.Multiline = true;
             this.textBoxInput.Name = "textBoxInput";
             this.textBoxInput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxInput.Size = new System.Drawing.Size(348, 179);
+            this.textBoxInput.Size = new System.Drawing.Size(262, 146);
             this.textBoxInput.TabIndex = 3;
+            this.textBoxInput.Visible = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(150, 13);
+            this.button1.Location = new System.Drawing.Point(112, 11);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(317, 39);
+            this.button1.Size = new System.Drawing.Size(238, 32);
             this.button1.TabIndex = 4;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
@@ -123,28 +129,32 @@
             // 
             // ButtonSendMessage
             // 
-            this.ButtonSendMessage.Location = new System.Drawing.Point(970, 614);
+            this.ButtonSendMessage.Location = new System.Drawing.Point(803, 448);
+            this.ButtonSendMessage.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonSendMessage.Name = "ButtonSendMessage";
-            this.ButtonSendMessage.Size = new System.Drawing.Size(341, 58);
+            this.ButtonSendMessage.Size = new System.Drawing.Size(256, 47);
             this.ButtonSendMessage.TabIndex = 5;
             this.ButtonSendMessage.Text = "Send Message";
             this.ButtonSendMessage.UseVisualStyleBackColor = true;
+            this.ButtonSendMessage.Visible = false;
             this.ButtonSendMessage.Click += new System.EventHandler(this.ButtonSendMessage_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(970, 496);
+            this.label1.Location = new System.Drawing.Point(530, 410);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 6;
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(970, 493);
+            this.Label2.Location = new System.Drawing.Point(530, 408);
+            this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(0, 17);
+            this.Label2.Size = new System.Drawing.Size(0, 13);
             this.Label2.TabIndex = 7;
             // 
             // Timer1
@@ -155,18 +165,20 @@
             // LowerTimeLabel
             // 
             this.LowerTimeLabel.AutoSize = true;
-            this.LowerTimeLabel.Location = new System.Drawing.Point(450, 629);
+            this.LowerTimeLabel.Location = new System.Drawing.Point(338, 511);
+            this.LowerTimeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LowerTimeLabel.Name = "LowerTimeLabel";
-            this.LowerTimeLabel.Size = new System.Drawing.Size(0, 17);
+            this.LowerTimeLabel.Size = new System.Drawing.Size(0, 13);
             this.LowerTimeLabel.TabIndex = 8;
             // 
             // ThreeHour
             // 
             this.ThreeHour.AutoSize = true;
             this.ThreeHour.Checked = true;
-            this.ThreeHour.Location = new System.Drawing.Point(150, 59);
+            this.ThreeHour.Location = new System.Drawing.Point(112, 48);
+            this.ThreeHour.Margin = new System.Windows.Forms.Padding(2);
             this.ThreeHour.Name = "ThreeHour";
-            this.ThreeHour.Size = new System.Drawing.Size(77, 21);
+            this.ThreeHour.Size = new System.Drawing.Size(60, 17);
             this.ThreeHour.TabIndex = 9;
             this.ThreeHour.TabStop = true;
             this.ThreeHour.Text = "3 hours";
@@ -176,9 +188,10 @@
             // OneHour
             // 
             this.OneHour.AutoSize = true;
-            this.OneHour.Location = new System.Drawing.Point(150, 86);
+            this.OneHour.Location = new System.Drawing.Point(112, 70);
+            this.OneHour.Margin = new System.Windows.Forms.Padding(2);
             this.OneHour.Name = "OneHour";
-            this.OneHour.Size = new System.Drawing.Size(70, 21);
+            this.OneHour.Size = new System.Drawing.Size(55, 17);
             this.OneHour.TabIndex = 10;
             this.OneHour.Text = "1 hour";
             this.OneHour.UseVisualStyleBackColor = true;
@@ -187,9 +200,10 @@
             // ThirtyMin
             // 
             this.ThirtyMin.AutoSize = true;
-            this.ThirtyMin.Location = new System.Drawing.Point(150, 113);
+            this.ThirtyMin.Location = new System.Drawing.Point(112, 92);
+            this.ThirtyMin.Margin = new System.Windows.Forms.Padding(2);
             this.ThirtyMin.Name = "ThirtyMin";
-            this.ThirtyMin.Size = new System.Drawing.Size(71, 21);
+            this.ThirtyMin.Size = new System.Drawing.Size(56, 17);
             this.ThirtyMin.TabIndex = 11;
             this.ThirtyMin.Text = "30 min";
             this.ThirtyMin.UseVisualStyleBackColor = true;
@@ -198,9 +212,10 @@
             // FifteenMin
             // 
             this.FifteenMin.AutoSize = true;
-            this.FifteenMin.Location = new System.Drawing.Point(150, 140);
+            this.FifteenMin.Location = new System.Drawing.Point(112, 114);
+            this.FifteenMin.Margin = new System.Windows.Forms.Padding(2);
             this.FifteenMin.Name = "FifteenMin";
-            this.FifteenMin.Size = new System.Drawing.Size(71, 21);
+            this.FifteenMin.Size = new System.Drawing.Size(56, 17);
             this.FifteenMin.TabIndex = 12;
             this.FifteenMin.Text = "15 min";
             this.FifteenMin.UseVisualStyleBackColor = true;
@@ -209,9 +224,10 @@
             // TenMin
             // 
             this.TenMin.AutoSize = true;
-            this.TenMin.Location = new System.Drawing.Point(150, 167);
+            this.TenMin.Location = new System.Drawing.Point(112, 136);
+            this.TenMin.Margin = new System.Windows.Forms.Padding(2);
             this.TenMin.Name = "TenMin";
-            this.TenMin.Size = new System.Drawing.Size(71, 21);
+            this.TenMin.Size = new System.Drawing.Size(56, 17);
             this.TenMin.TabIndex = 13;
             this.TenMin.Text = "10 min";
             this.TenMin.UseVisualStyleBackColor = true;
@@ -220,9 +236,10 @@
             // FiveMin
             // 
             this.FiveMin.AutoSize = true;
-            this.FiveMin.Location = new System.Drawing.Point(150, 194);
+            this.FiveMin.Location = new System.Drawing.Point(112, 158);
+            this.FiveMin.Margin = new System.Windows.Forms.Padding(2);
             this.FiveMin.Name = "FiveMin";
-            this.FiveMin.Size = new System.Drawing.Size(63, 21);
+            this.FiveMin.Size = new System.Drawing.Size(50, 17);
             this.FiveMin.TabIndex = 14;
             this.FiveMin.Text = "5 min";
             this.FiveMin.UseVisualStyleBackColor = true;
@@ -231,9 +248,10 @@
             // OneMin
             // 
             this.OneMin.AutoSize = true;
-            this.OneMin.Location = new System.Drawing.Point(150, 221);
+            this.OneMin.Location = new System.Drawing.Point(112, 180);
+            this.OneMin.Margin = new System.Windows.Forms.Padding(2);
             this.OneMin.Name = "OneMin";
-            this.OneMin.Size = new System.Drawing.Size(63, 21);
+            this.OneMin.Size = new System.Drawing.Size(50, 17);
             this.OneMin.TabIndex = 15;
             this.OneMin.Text = "1 min";
             this.OneMin.UseVisualStyleBackColor = true;
@@ -242,17 +260,19 @@
             // UpperTimeLabel
             // 
             this.UpperTimeLabel.AutoSize = true;
-            this.UpperTimeLabel.Location = new System.Drawing.Point(450, 13);
+            this.UpperTimeLabel.Location = new System.Drawing.Point(338, 11);
+            this.UpperTimeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UpperTimeLabel.Name = "UpperTimeLabel";
-            this.UpperTimeLabel.Size = new System.Drawing.Size(0, 17);
+            this.UpperTimeLabel.Size = new System.Drawing.Size(0, 13);
             this.UpperTimeLabel.TabIndex = 16;
             // 
             // ButtonStartOfGame
             // 
             this.ButtonStartOfGame.Enabled = false;
-            this.ButtonStartOfGame.Location = new System.Drawing.Point(970, 516);
+            this.ButtonStartOfGame.Location = new System.Drawing.Point(530, 426);
+            this.ButtonStartOfGame.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonStartOfGame.Name = "ButtonStartOfGame";
-            this.ButtonStartOfGame.Size = new System.Drawing.Size(75, 48);
+            this.ButtonStartOfGame.Size = new System.Drawing.Size(56, 39);
             this.ButtonStartOfGame.TabIndex = 17;
             this.ButtonStartOfGame.Text = "|<";
             this.ButtonStartOfGame.UseVisualStyleBackColor = true;
@@ -261,9 +281,10 @@
             // ButtonBackOne
             // 
             this.ButtonBackOne.Enabled = false;
-            this.ButtonBackOne.Location = new System.Drawing.Point(1051, 516);
+            this.ButtonBackOne.Location = new System.Drawing.Point(590, 426);
+            this.ButtonBackOne.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonBackOne.Name = "ButtonBackOne";
-            this.ButtonBackOne.Size = new System.Drawing.Size(75, 48);
+            this.ButtonBackOne.Size = new System.Drawing.Size(56, 39);
             this.ButtonBackOne.TabIndex = 18;
             this.ButtonBackOne.Text = "<";
             this.ButtonBackOne.UseVisualStyleBackColor = true;
@@ -272,9 +293,10 @@
             // ButtonForwardOne
             // 
             this.ButtonForwardOne.Enabled = false;
-            this.ButtonForwardOne.Location = new System.Drawing.Point(1132, 516);
+            this.ButtonForwardOne.Location = new System.Drawing.Point(651, 426);
+            this.ButtonForwardOne.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonForwardOne.Name = "ButtonForwardOne";
-            this.ButtonForwardOne.Size = new System.Drawing.Size(75, 48);
+            this.ButtonForwardOne.Size = new System.Drawing.Size(56, 39);
             this.ButtonForwardOne.TabIndex = 19;
             this.ButtonForwardOne.Text = ">";
             this.ButtonForwardOne.UseVisualStyleBackColor = true;
@@ -283,9 +305,10 @@
             // ButtonCurrentMove
             // 
             this.ButtonCurrentMove.Enabled = false;
-            this.ButtonCurrentMove.Location = new System.Drawing.Point(1213, 516);
+            this.ButtonCurrentMove.Location = new System.Drawing.Point(712, 426);
+            this.ButtonCurrentMove.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonCurrentMove.Name = "ButtonCurrentMove";
-            this.ButtonCurrentMove.Size = new System.Drawing.Size(75, 48);
+            this.ButtonCurrentMove.Size = new System.Drawing.Size(56, 39);
             this.ButtonCurrentMove.TabIndex = 20;
             this.ButtonCurrentMove.Text = ">|";
             this.ButtonCurrentMove.UseVisualStyleBackColor = true;
@@ -294,9 +317,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::ChessGUI.Properties.Resources.pW;
-            this.pictureBox10.Location = new System.Drawing.Point(970, 373);
+            this.pictureBox10.Location = new System.Drawing.Point(530, 310);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox10.Size = new System.Drawing.Size(38, 41);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 30;
             this.pictureBox10.TabStop = false;
@@ -304,9 +328,10 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::ChessGUI.Properties.Resources.NW;
-            this.pictureBox9.Location = new System.Drawing.Point(1026, 373);
+            this.pictureBox9.Location = new System.Drawing.Point(572, 310);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox9.Size = new System.Drawing.Size(38, 41);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 29;
             this.pictureBox9.TabStop = false;
@@ -314,9 +339,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::ChessGUI.Properties.Resources.BW;
-            this.pictureBox8.Location = new System.Drawing.Point(1082, 373);
+            this.pictureBox8.Location = new System.Drawing.Point(614, 310);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox8.Size = new System.Drawing.Size(38, 41);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 28;
             this.pictureBox8.TabStop = false;
@@ -324,9 +350,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::ChessGUI.Properties.Resources.RW;
-            this.pictureBox7.Location = new System.Drawing.Point(1138, 373);
+            this.pictureBox7.Location = new System.Drawing.Point(656, 310);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox7.Size = new System.Drawing.Size(38, 41);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 27;
             this.pictureBox7.TabStop = false;
@@ -334,9 +361,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::ChessGUI.Properties.Resources.NB;
-            this.pictureBox6.Location = new System.Drawing.Point(1026, 277);
+            this.pictureBox6.Location = new System.Drawing.Point(572, 232);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.Size = new System.Drawing.Size(38, 41);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 26;
             this.pictureBox6.TabStop = false;
@@ -344,9 +372,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::ChessGUI.Properties.Resources.BB;
-            this.pictureBox5.Location = new System.Drawing.Point(1082, 277);
+            this.pictureBox5.Location = new System.Drawing.Point(614, 232);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.Size = new System.Drawing.Size(38, 41);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 25;
             this.pictureBox5.TabStop = false;
@@ -354,9 +383,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ChessGUI.Properties.Resources.RB;
-            this.pictureBox4.Location = new System.Drawing.Point(1138, 277);
+            this.pictureBox4.Location = new System.Drawing.Point(656, 232);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox4.Size = new System.Drawing.Size(38, 41);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 24;
             this.pictureBox4.TabStop = false;
@@ -364,9 +394,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ChessGUI.Properties.Resources.QB;
-            this.pictureBox3.Location = new System.Drawing.Point(1194, 277);
+            this.pictureBox3.Location = new System.Drawing.Point(698, 232);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox3.Size = new System.Drawing.Size(38, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
@@ -374,9 +405,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ChessGUI.Properties.Resources.QW;
-            this.pictureBox2.Location = new System.Drawing.Point(1194, 373);
+            this.pictureBox2.Location = new System.Drawing.Point(698, 310);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(38, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
@@ -384,9 +416,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ChessGUI.Properties.Resources.pB;
-            this.pictureBox1.Location = new System.Drawing.Point(970, 277);
+            this.pictureBox1.Location = new System.Drawing.Point(530, 232);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(38, 41);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
@@ -394,98 +427,108 @@
             // labelBlackPawnsTaken
             // 
             this.labelBlackPawnsTaken.AutoSize = true;
-            this.labelBlackPawnsTaken.Location = new System.Drawing.Point(985, 335);
+            this.labelBlackPawnsTaken.Location = new System.Drawing.Point(541, 279);
+            this.labelBlackPawnsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBlackPawnsTaken.Name = "labelBlackPawnsTaken";
-            this.labelBlackPawnsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelBlackPawnsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelBlackPawnsTaken.TabIndex = 31;
             this.labelBlackPawnsTaken.Text = "x0";
             // 
             // labelBlackKnightsTaken
             // 
             this.labelBlackKnightsTaken.AutoSize = true;
-            this.labelBlackKnightsTaken.Location = new System.Drawing.Point(1041, 335);
+            this.labelBlackKnightsTaken.Location = new System.Drawing.Point(583, 279);
+            this.labelBlackKnightsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBlackKnightsTaken.Name = "labelBlackKnightsTaken";
-            this.labelBlackKnightsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelBlackKnightsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelBlackKnightsTaken.TabIndex = 32;
             this.labelBlackKnightsTaken.Text = "x0";
             // 
             // labelBlackBishopsTaken
             // 
             this.labelBlackBishopsTaken.AutoSize = true;
-            this.labelBlackBishopsTaken.Location = new System.Drawing.Point(1097, 335);
+            this.labelBlackBishopsTaken.Location = new System.Drawing.Point(625, 279);
+            this.labelBlackBishopsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBlackBishopsTaken.Name = "labelBlackBishopsTaken";
-            this.labelBlackBishopsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelBlackBishopsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelBlackBishopsTaken.TabIndex = 33;
             this.labelBlackBishopsTaken.Text = "x0";
             // 
             // labelBlackRooksTaken
             // 
             this.labelBlackRooksTaken.AutoSize = true;
-            this.labelBlackRooksTaken.Location = new System.Drawing.Point(1153, 335);
+            this.labelBlackRooksTaken.Location = new System.Drawing.Point(667, 279);
+            this.labelBlackRooksTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBlackRooksTaken.Name = "labelBlackRooksTaken";
-            this.labelBlackRooksTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelBlackRooksTaken.Size = new System.Drawing.Size(18, 13);
             this.labelBlackRooksTaken.TabIndex = 34;
             this.labelBlackRooksTaken.Text = "x0";
             // 
             // labelWhiteQueensTaken
             // 
             this.labelWhiteQueensTaken.AutoSize = true;
-            this.labelWhiteQueensTaken.Location = new System.Drawing.Point(1209, 431);
+            this.labelWhiteQueensTaken.Location = new System.Drawing.Point(709, 357);
+            this.labelWhiteQueensTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWhiteQueensTaken.Name = "labelWhiteQueensTaken";
-            this.labelWhiteQueensTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelWhiteQueensTaken.Size = new System.Drawing.Size(18, 13);
             this.labelWhiteQueensTaken.TabIndex = 35;
             this.labelWhiteQueensTaken.Text = "x0";
             // 
             // labelWhiteRooksTaken
             // 
             this.labelWhiteRooksTaken.AutoSize = true;
-            this.labelWhiteRooksTaken.Location = new System.Drawing.Point(1153, 431);
+            this.labelWhiteRooksTaken.Location = new System.Drawing.Point(667, 357);
+            this.labelWhiteRooksTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWhiteRooksTaken.Name = "labelWhiteRooksTaken";
-            this.labelWhiteRooksTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelWhiteRooksTaken.Size = new System.Drawing.Size(18, 13);
             this.labelWhiteRooksTaken.TabIndex = 36;
             this.labelWhiteRooksTaken.Text = "x0";
             // 
             // labelWhiteBishopsTaken
             // 
             this.labelWhiteBishopsTaken.AutoSize = true;
-            this.labelWhiteBishopsTaken.Location = new System.Drawing.Point(1097, 431);
+            this.labelWhiteBishopsTaken.Location = new System.Drawing.Point(625, 357);
+            this.labelWhiteBishopsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWhiteBishopsTaken.Name = "labelWhiteBishopsTaken";
-            this.labelWhiteBishopsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelWhiteBishopsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelWhiteBishopsTaken.TabIndex = 37;
             this.labelWhiteBishopsTaken.Text = "x0";
             // 
             // labelWhiteKnightsTaken
             // 
             this.labelWhiteKnightsTaken.AutoSize = true;
-            this.labelWhiteKnightsTaken.Location = new System.Drawing.Point(1041, 431);
+            this.labelWhiteKnightsTaken.Location = new System.Drawing.Point(583, 357);
+            this.labelWhiteKnightsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWhiteKnightsTaken.Name = "labelWhiteKnightsTaken";
-            this.labelWhiteKnightsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelWhiteKnightsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelWhiteKnightsTaken.TabIndex = 38;
             this.labelWhiteKnightsTaken.Text = "x0";
             // 
             // labelWhitePawnsTaken
             // 
             this.labelWhitePawnsTaken.AutoSize = true;
-            this.labelWhitePawnsTaken.Location = new System.Drawing.Point(985, 431);
+            this.labelWhitePawnsTaken.Location = new System.Drawing.Point(541, 357);
+            this.labelWhitePawnsTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWhitePawnsTaken.Name = "labelWhitePawnsTaken";
-            this.labelWhitePawnsTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelWhitePawnsTaken.Size = new System.Drawing.Size(18, 13);
             this.labelWhitePawnsTaken.TabIndex = 39;
             this.labelWhitePawnsTaken.Text = "x0";
             // 
             // labelBlackQueensTaken
             // 
             this.labelBlackQueensTaken.AutoSize = true;
-            this.labelBlackQueensTaken.Location = new System.Drawing.Point(1209, 335);
+            this.labelBlackQueensTaken.Location = new System.Drawing.Point(709, 279);
+            this.labelBlackQueensTaken.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBlackQueensTaken.Name = "labelBlackQueensTaken";
-            this.labelBlackQueensTaken.Size = new System.Drawing.Size(22, 17);
+            this.labelBlackQueensTaken.Size = new System.Drawing.Size(18, 13);
             this.labelBlackQueensTaken.TabIndex = 40;
             this.labelBlackQueensTaken.Text = "x0";
             // 
             // Chess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1317, 684);
+            this.ClientSize = new System.Drawing.Size(785, 556);
             this.Controls.Add(this.labelBlackQueensTaken);
             this.Controls.Add(this.labelWhitePawnsTaken);
             this.Controls.Add(this.labelWhiteKnightsTaken);
@@ -527,6 +570,7 @@
             this.Controls.Add(this.textBoxNotation);
             this.Controls.Add(this.textBoxChat);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Chess";
             this.Text = "Chess";
             this.Load += new System.EventHandler(this.Chess_Load);
